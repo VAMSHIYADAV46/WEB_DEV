@@ -1,0 +1,59 @@
+div{
+    height: 20px;
+    background-color: black;
+    color: white;
+    
+    animation-name: widthanimation;
+    animation-duration: 5s;
+    animation-timing-function: normal;
+    animation-iteration-count: infinite;
+    
+}
+
+
+/* 
+@keyframes widthanimation{
+    from{ 
+        width: 0px;
+        text-transform: lowercase;
+        border-radius: 0px;
+        text-align: start;
+    }
+    to{
+        width: 600px;
+        text-transform: uppercase;
+        border-radius: 15px;
+        text-align: end;
+    }
+} */
+
+
+/* percentage in animation */
+
+
+@keyframes widthanimation{
+    0%{ 
+        width: 0px;
+        text-transform: lowercase;
+        border-radius: 0px;
+        text-align: start;
+    }
+    10%{ 
+        width: 0px;
+        text-transform: lowercase;
+        border-radius: 0px;
+        text-align: center;
+    }
+    50%{
+        width: 600px;
+        text-transform: uppercase;
+        border-radius: 15px;
+        text-align: center;
+    }
+    100%{
+        width: 600px;
+        text-transform: uppercase;
+        border-radius: 15px;
+        text-align: end;
+    }
+}

@@ -1,0 +1,51 @@
+.container{
+    width: 600px;
+    height: 500px;
+    background-color: black;
+    display: grid;
+
+/*  placing all elements  */
+    /* justify-items:center;      /* to select individual element select the element and use self instead of items */
+    /* align-items: center; */    /* to select individual element select the element and use self instead of items */
+
+
+    place-items:center;
+
+/* grid template */
+
+    /* grid-template-rows: 100px 100px 100px 100px 100px; */
+    /* grid-template-columns: auto auto auto; */
+
+    grid-template-rows: repeat(51fr);
+    grid-template-columns:repeat(3,1fr);
+
+/* grid gap */
+    /* row-gap: 2px ;
+    column-gap: 4px; */
+    gap: 2px 4px;
+}
+
+
+.item{
+    width: 50px;
+    height: 60px;
+    background-color: gold;
+    text-align: center;
+    /* border: 10px white solid; */
+
+}
+
+
+/* grid columns */
+
+/* #ele2{ */
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+
+/* grid-column: 2/4;   (start column/end column) */
+    /* grid-column: 2/4; */
+
+
+/* grid-column: 2/span 3;  (start column/ span no of cells)*/
+    /* grid-column: 2/span 3; */
+/* } */

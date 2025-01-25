@@ -1,0 +1,14 @@
+div{
+    height: 400px;
+    width: 600px;
+    margin: 50px auto;
+    background-color: brown;
+    border-radius: 15px;
+    box-shadow: 3px 3px 50px black;
+}
+
+
+div{
+    background-image: url(drive.jpg);
+    background-size: contain;
+}

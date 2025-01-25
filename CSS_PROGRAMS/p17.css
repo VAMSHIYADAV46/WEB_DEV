@@ -1,0 +1,46 @@
+#outer{
+    background-color:black;
+    height: 130px;
+    width: 45px;
+    border: 20px;
+    border-color: black;
+    border-width: 6px;
+    border-style: groove;
+    border-radius: 50px;
+    padding-left: 7px;
+    padding-top: 6px;
+}
+button{
+    height: 30px;
+    width: 30px;
+    margin: 10%;
+    border-radius: 50%;
+}
+
+#light1{
+    background-color: red;
+}
+#light2{
+    background-color: yellow;
+}
+#light3{
+    background-color: green;
+}
+
+#pole{
+    background-color: black;
+    margin-left: 22px;
+    height: 300px;
+    width: 20px;
+}
+#base{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+#tl{
+    margin-left: 700px;
+    margin-top: 200px;
+}

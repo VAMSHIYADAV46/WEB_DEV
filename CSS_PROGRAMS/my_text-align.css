@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    text-decoration: green line-through;
+    /* text-decoration-color: green; */
+}
+
+h2{
+    text-align: left;
+    text-decoration:  red dashed  underline;
+}
+P{
+    text-align:justify;
+    
+}

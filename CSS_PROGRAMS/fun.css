@@ -1,0 +1,49 @@
+.div1{
+    height: 40px;
+    width: 70px;
+    background-color: red;
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration:underline;
+}
+.div2{
+    height: 40px;
+    width: 70px;
+    background-color: red;
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration:underline;
+}
+.div3{
+    height: 40px;
+    width: 70px;
+    background-color: red;
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration:underline;
+}
+
+#center{
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
+
+.div1:hover{
+    margin-bottom: 200px;
+}
+.div2:hover{
+    margin-left: 200px;
+}
+.div3:hover{
+    margin-top: 200px;
+}

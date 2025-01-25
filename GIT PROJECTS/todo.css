@@ -1,0 +1,44 @@
+body{
+    background-color: black ;
+    /* opacity: ; */
+    color: aliceblue;
+}
+
+.container{
+    text-align: center;
+    
+}
+
+input{
+    height: 20px;
+    width: 200px;
+    border-radius: 50px;
+    border: 2px groove #F2E7D5;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+il{
+    text-align: center;
+
+}
+
+.enter{
+    border: 2px groove #F2E7D5;
+    
+    border-radius: 50px;
+}
+
+
+.delete{
+    border: 2px groove #F2E7D5;
+    border-radius: 50px;  
+    margin-left: 20px;
+}
+
+
+

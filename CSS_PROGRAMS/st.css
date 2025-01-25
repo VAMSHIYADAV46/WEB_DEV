@@ -1,0 +1,69 @@
+/* div{
+    padding-top: 30px;
+    padding-top: 0;
+}
+
+
+form{
+    margin: 60px;
+    border: 10px black groove;
+    padding: 2%;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button{
+    background-color: black;
+    color: whitesmoke;
+    border: 2px  solid groove;
+    border-radius: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+button:hover{
+    background-color: pink;
+    color: black;
+
+}
+
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#name{
+    border-radius: 50px;
+}
+#pass{
+    border-radius: 50px;
+}
+
+#name:hover{
+    color: red;
+}
+
+#pass:hover{
+    color: red
+} */
+
+
+
+div{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    color: antiquewhite;
+}
+
+button{
+    margin: 30px;
+    font-size: 7px;
+
+}
+div:hover{
+    margin-top: 200px;
+}

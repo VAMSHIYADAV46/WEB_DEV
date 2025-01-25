@@ -1,0 +1,8 @@
+.container{
+    height: 300px;
+    width: 600px;
+}
+
+.item{
+    border: 2px white solid;
+}

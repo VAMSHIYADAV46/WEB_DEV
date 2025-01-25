@@ -1,0 +1,88 @@
+/* to select all the page */
+/* *{
+    background-color: blanchedalmond;
+
+} */
+
+/* multiple element selector */
+/* h1,h3{
+    color: #b92b27;
+} */
+
+/* id selector */
+#login{
+    background-color: black;
+    color: aliceblue;
+}
+
+/* class selctor */
+.answer{
+    background-color: coral;
+    color: whitesmoke;
+}
+
+/* adjecent sibling selector */
+h5 + h6{
+    text-decoration: line-through;
+}
+
+/* desendent selector */
+span button{
+    background-color: aqua;
+}
+
+
+
+/* practice question  : set the paragraph which is in side a div with id:"myid" to green*/
+/* html code will be at bottm in html file */
+
+
+div[id="myid"] p{
+    color:aquamarine;
+     
+}
+
+
+
+button{
+    border:20px;
+    border-radius: 20%;
+
+}
+
+
+/* pseudo class */
+
+/* 1) hover */
+
+button:hover{
+    background-color: aquamarine;
+    color: white;
+}
+
+/* 2)active */
+
+button:active{
+    background-color: black;
+    color: white;
+}
+
+
+/* 3) checked */
+
+input[type="radio"]:checked+label {
+    color: red;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+
+p1::selection{
+    background-color:red;
+}
+
+/* nth-of-type() */
+
+div1:nth-of-type(2n){
+    color: red;
+}

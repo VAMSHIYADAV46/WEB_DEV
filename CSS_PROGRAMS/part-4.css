@@ -1,0 +1,59 @@
+div{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+
+    
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+    transition-timing-function:linear;
+
+}
+
+/* transition */
+
+/* div:hover{
+    border-radius: 60px;
+    background-color: red;
+    margin-left: 100px;
+} */
+
+
+/* transition rotate */
+
+/* div:hover{
+    transform: rotate(deg);
+} */
+
+/* transition scale */
+
+div:hover{
+    transform: scale(2);
+}
+
+
+/* translate(moving box using axis) */
+
+/* div:hover{
+    transform: translate(100px, 100px);
+    transform: translateX(100px);
+    transform: translateY(100px);
+    
+}
+
+ */
+
+
+ /* skewed  */
+ /* div:hover{
+    transform: skew(30deg);
+ } */
+
+
+ /* background image and size */
+
+div{
+    background-image: url(https://imgs.search.brave.com/Ckh6r7qYGyEq9CwHU2nfTll4EsDBUhZIkQfZOxLQQwA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuamF2YXRwb2lu/dC5jb20vamF2YXNj/cmlwdHBhZ2VzL2lt/YWdlcy9yYW5kb20t/aW1hZ2UtZ2VuZXJh/dG9yLWluLWphdmFz/Y3JpcHQyLnBuZw);
+    background-size:cover;
+}

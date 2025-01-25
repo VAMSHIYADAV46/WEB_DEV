@@ -1,0 +1,67 @@
+.main{
+    height: 400px;
+    width: 700px;
+    background-color: black;
+    display: flex;
+    /* flex-direction: row; */
+
+
+/* justify content */
+
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+
+/* wrap */
+
+    /*default no wrapping*/
+         /* flex-wrap: nowrap; */
+    
+    /* wraps on main axis*/     
+         /* flex-wrap: wrap; */
+         
+    /* wraps on  reverse of main axis */
+         /* flex-wrap: wrap-reverse; */
+
+
+
+
+/* align */
+/* alligning the items  on cross axis */
+
+
+    /*  */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+
+
+/* align-content */
+
+
+}
+
+
+#ele1{
+    flex-basis: 60px;
+    flex-grow: 1;
+    max-width: px;
+}
+
+#ele2{
+    flex-grow: 2;
+    min-width: 200px;
+    
+}
+.item1 ,.item2 ,.item3 ,.item4 ,.item5{
+    height: 60px;
+    width: 50px;
+    background-color: red;
+    border: 2px solid white ;
+    
+}
