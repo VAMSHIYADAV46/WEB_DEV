@@ -28,6 +28,17 @@ customerSchema = new Schema({
     }]
 })
 
+customerSchema.pre("findOneAndDelete", async () => {
+    console.log("Pre middelware")
+})
+
+customerSchema.post("findOneAndDelete", async (customer) => {
+    if (customer.orders.length) {
+       let res = await Order.deleteMany({_id : { $in: customer.orders}})
+        console.log(res)
+    }
+})
+
 Customer = mongoose.model("Customer",customerSchema)
 
 const addOrder = async () => {
@@ -44,9 +55,10 @@ const addOrder = async () => {
 }
 
 
-addOrder()
+
 
 palceOrder = async () => {
+    addOrder()
     customer1 = new Customer({name:"Vamshi"})
     orderObj1= await Order.findOne({item:"Fried rice"})
     orderObj2= await Order.findOne({item:"Noodles"})
@@ -57,7 +69,7 @@ palceOrder = async () => {
     })
 }
 
-palceOrder()
+// palceOrder()
 
 
 
@@ -76,8 +88,16 @@ const addCustomer = async()=>{
 
     cust1.orders.push(order1)
 
-    await cust1.save().then(console.log("Customer saved...!"))
     await order1.save().then(console.log("Order saved...!"))
+    await cust1.save().then(console.log("Customer saved...!"))
 }
 
 // addCustomer()
+
+
+const delCust = async () => {
+   data =  await Customer.findByIdAndDelete('67b0a14d4564efac4c6f53a0')
+   console.log(data)
+}
+
+delCust()
